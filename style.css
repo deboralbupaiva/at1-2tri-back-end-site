@@ -1,0 +1,64 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:rgb(255, 255, 255);
+    margin: 20px;
+    padding: 0;
+    color: #402761;
+}
+h1{
+    text-align: center;
+    color: #402761;
+}
+form{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+form input, form button{
+    padding: 10px;
+    font-size: 1em;
+}
+form button{
+    background-color: #402761;
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+}
+form button:hover{
+    background-color: #b56b22;
+}
+#busca{
+    display: block;
+    margin: 0 auto 20px auto;
+    padding: 10px;
+    width: 60%;
+    font-size: 1em;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+thead{
+    background-color: #e3d5ff;
+}
+th, tr{
+    padding: 10px;
+    border: 1px solid;
+    text-align: center;
+}
+button.acao{
+    padding: 5px 10px;
+    margin: 2px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    border-radius: 4px;
+}
+button.adicionar{
+    background-color: #007fe0;
+}
+button.remover{
+    background-color: #0c5d80;
+}
